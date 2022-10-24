@@ -1,0 +1,6 @@
+subscription UserSubscriptionStatus($id: uuid) {
+  user_sub_status(where: { id: { _eq: $id }}){
+    id
+    status
+  }
+}

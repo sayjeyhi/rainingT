@@ -1,0 +1,5 @@
+query GetUser($id: uuid) {
+  getUser(where: { id: {_eq: $id}}) {
+    title,
+  }
+}

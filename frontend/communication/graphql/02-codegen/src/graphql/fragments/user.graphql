@@ -1,0 +1,13 @@
+fragment NameParts on Person {
+    firstName
+    lastName
+}
+
+# Then I can use it in query or mutation:
+
+# query GetPerson {
+#    people(id: "7") {
+#        ...NameParts
+#        avatar(size: LARGE)
+#    }
+# }

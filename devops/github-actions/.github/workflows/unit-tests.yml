@@ -1,0 +1,53 @@
+name: Unit Tests
+on:
+  workflow_call:
+    inputs:
+      REPO_NAME:
+        required: true
+        type: string
+    secrets:
+      GH_PACKAGES_TOKEN:
+        required: true
+      CODECOV_TOKEN:
+        required: true
+jobs:
+  unit_tests:
+    name: Jest
+    runs-on: [self-hosted, deploy]
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      # Restore NPM cache
+      - name: Restore node_modules
+        uses: actions/cache@v3
+        id: node-cache
+        with:
+          path: |
+            ./node_modules
+            /home/runner/.cache/Cypress
+          key: node-cache-${{ runner.os }}-${{ hashFiles('./yarn.lock') }}
+      - name: Set Node version
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: ".nvmrc"
+          registry-url: "https://npm.pkg.github.com"
+      - name: Setup Yarn
+        run: npm install -g yarn
+      - name: Install NPM dependencies
+        if: steps.node-cache.outputs.cache-hit != 'true'
+        run: yarn --frozen-lockfile
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
+      # Unit Tests
+      - name: Jest
+        run: yarn jest:run
+      # Upload test coverage report to CodeCov
+      - name: Codecov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          directory: ./coverage
+          flags: Jest
+          name: ${{ inputs.REPO_NAME }}
+          fail_ci_if_error: true
+          verbose: true
