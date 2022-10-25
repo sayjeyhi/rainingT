@@ -1,4 +1,4 @@
-# ⛎ Cloud  | Raining T
+# 🍴 Cloud  | Raining T
 
 > [🏠](/) > [Devops](/devops) > [Cloud](/devops/cloud)
 
