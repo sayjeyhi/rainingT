@@ -22,7 +22,7 @@ const generateTable = (items, path, title) => {
   let i = 0;
   for (let el in items) {
     i++;
-    result += `<tr><td>${i}</td><td><a href="${(path + '/' + el).substring(3)}">${capitalizeFirstChar(el)}</a></td></tr>`;
+    result += `<tr><td>${i}</td><td><a href="${(path + '/' + el).substring(2)}">${capitalizeFirstChar(el)}</a></td></tr>`;
   }
   result += '</tbody></table>';
   return result;
@@ -36,7 +36,7 @@ const generateBreadcrumb = (paths = []) => paths.length === 2 ? rootBreadCrumb :
   .map(folder => {
     const tempFolder = folder.substring(4);
     const lastSlashIndex = tempFolder.lastIndexOf('/') + 1;
-    return `[${tempFolder === '.' ? '🏠' : capitalizeFirstChar(tempFolder.substring(lastSlashIndex))}](/${tempFolder})`;
+    return `[${!tempFolder ? '🏠' : capitalizeFirstChar(tempFolder.substring(lastSlashIndex))}](/${tempFolder})`;
   })
   .join(" > ")
 }`;
