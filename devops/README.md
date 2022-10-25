@@ -1,4 +1,10 @@
-# 🚠 Cloud  | Raining T
+# 🎩 Devops  | Raining T
+
+> [🏠](/.) > [Devops](/./devops)
+
+<table><thead><tr><th></th><th>Devops</th></tr></thead><tbody><tr><td>1</td><td><a href=".//devops/cloud">Cloud</a></td></tr><tr><td>2</td><td><a href=".//devops/github-actions">Github actions</a></td></tr></tbody></table>
+
+## Cloud
 
 > [🏠](/.) > [Devops](/./devops) > [Cloud](/./devops/cloud)
 
