@@ -1,0 +1,23 @@
+{
+  "name": "rainingt",
+  "version": "1.0.0",
+  "description": "> A place to paste re-usable stuff!",
+  "main": "index.js",
+  "scripts": {
+    "build": "node create-readme-files.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayjeyhi/rainingT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayjeyhi/rainingT/issues"
+  },
+  "homepage": "https://github.com/sayjeyhi/rainingT#readme",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
