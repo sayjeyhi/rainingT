@@ -35,7 +35,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Update README files"
+          COMMIT-MESSAGE: "Update README files"
+          COMMIT_MESSAGE: "Update README files"
           BRANCH: main
           FOLDER: temp
           CLEAN: true # Automatically remove deleted files from the deploy branch
