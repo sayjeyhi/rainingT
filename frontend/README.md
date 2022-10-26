@@ -1,4 +1,4 @@
-# 🔳 Frontend  | Raining T
+# 🎰 Frontend  | Raining T
 
 > [🏠](/) > [Frontend](/frontend)
 
