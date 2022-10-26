@@ -1,4 +1,4 @@
-# 👿 Rust  | Raining T
+# 💈 Rust  | Raining T
 
 > [🏠](/) > [Backend](/backend) > [Rust](/backend/rust)
 

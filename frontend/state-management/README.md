@@ -1,4 +1,4 @@
-# 🚶 State management  | Raining T
+# 🍢 State management  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [State management](/frontend/state-management)
 
