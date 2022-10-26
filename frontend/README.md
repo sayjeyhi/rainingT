@@ -1,8 +1,16 @@
-# ♎ Frontend  | Raining T
+# 🐥 Frontend  | Raining T
 
 > [🏠](/) > [Frontend](/frontend)
 
-<table><thead><tr><th></th><th>Frontend</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/communication">Communication</a></td></tr><tr><td>2</td><td><a href="/frontend/frameworks">Frameworks</a></td></tr><tr><td>3</td><td><a href="/frontend/state-management">State management</a></td></tr><tr><td>4</td><td><a href="/frontend/tools">Tools</a></td></tr><tr><td>5</td><td><a href="/frontend/ui-libraries">Ui libraries</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Frontend</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/build-tools">Build tools</a></td></tr><tr><td>2</td><td><a href="/frontend/communication">Communication</a></td></tr><tr><td>3</td><td><a href="/frontend/frameworks">Frameworks</a></td></tr><tr><td>4</td><td><a href="/frontend/state-management">State management</a></td></tr><tr><td>5</td><td><a href="/frontend/ui-libraries">Ui libraries</a></td></tr></tbody></table>
+
+## Build tools
+
+> [🏠](/) > [Frontend](/frontend) > [Build tools](/frontend/build-tools)
+
+<table><thead><tr><th></th><th>Build tools</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/build-tools/rollup">Rollup</a></td></tr><tr><td>2</td><td><a href="/frontend/build-tools/vite">Vite</a></td></tr><tr><td>3</td><td><a href="/frontend/build-tools/webpack">Webpack</a></td></tr></tbody></table>
+
+
 
 ## Communication
 
@@ -30,21 +38,13 @@
 
 > [🏠](/) > [Frontend](/frontend) > [State management](/frontend/state-management)
 
-<table><thead><tr><th></th><th>State management</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/state-management/jotai">Jotai</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>State management</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/state-management/jotai">Jotai</a></td></tr><tr><td>2</td><td><a href="/frontend/state-management/mobx">Mobx</a></td></tr><tr><td>3</td><td><a href="/frontend/state-management/recoil">Recoil</a></td></tr><tr><td>4</td><td><a href="/frontend/state-management/redux">Redux</a></td></tr></tbody></table>
 
 ## Jotai
 
 > [🏠](/) > [Frontend](/frontend) > [State management](/frontend/state-management) > [Jotai](/frontend/state-management/jotai)
 
-<table><thead><tr><th></th><th>Jotai</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/state-management/jotai/02-canvas-project">Canvas project</a></td></tr></tbody></table>
-
-
-
-## Tools
-
-> [🏠](/) > [Frontend](/frontend) > [Tools](/frontend/tools)
-
-<table><thead><tr><th></th><th>Tools</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/tools/webpack">Webpack</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Jotai</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/state-management/jotai/01-syntax">Syntax</a></td></tr><tr><td>2</td><td><a href="/frontend/state-management/jotai/02-canvas-project">Canvas project</a></td></tr></tbody></table>
 
 
 
@@ -58,5 +58,5 @@
 
 > [🏠](/) > [Frontend](/frontend) > [Ui libraries](/frontend/ui-libraries) > [Chakra ui](/frontend/ui-libraries/chakra-ui)
 
-<table><thead><tr><th></th><th>Chakra ui</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/ui-libraries/chakra-ui/01-checkout-app">Checkout app</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Chakra ui</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/ui-libraries/chakra-ui/01-syntax">Syntax</a></td></tr><tr><td>2</td><td><a href="/frontend/ui-libraries/chakra-ui/02-checkout-app">Checkout app</a></td></tr></tbody></table>
 
