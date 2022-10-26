@@ -1,4 +1,4 @@
-# 🏪 General  | Raining T
+# 🆒 General  | Raining T
 
 > [🏠](/) > [General](/general)
 

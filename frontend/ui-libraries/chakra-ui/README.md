@@ -1,4 +1,4 @@
-# 🕙 Chakra ui  | Raining T
+# 👵 Chakra ui  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [Ui libraries](/frontend/ui-libraries) > [Chakra ui](/frontend/ui-libraries/chakra-ui)
 
