@@ -1,4 +1,4 @@
-# 🐓 GCP  | Raining T
+# 📎 GCP  | Raining T
 
 > [🏠](/) > [Devops](/devops) > [Cloud](/devops/cloud) > [GCP](/devops/cloud/GCP)
 
