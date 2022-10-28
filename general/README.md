@@ -1,8 +1,8 @@
-# 🐴 General  | Raining T
+# 🆒 General  | Raining T
 
 > [🏠](/) > [General](/general)
 
-<table><thead><tr><th></th><th>General</th></tr></thead><tbody><tr><td>1</td><td><a href="/general/docker">Docker</a></td></tr><tr><td>2</td><td><a href="/general/testing">Testing</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>General</th></tr></thead><tbody><tr><td>1</td><td><a href="/general/docker">Docker</a></td></tr><tr><td>2</td><td><a href="/general/linux">Linux</a></td></tr><tr><td>3</td><td><a href="/general/testing">Testing</a></td></tr></tbody></table>
 
 ## Testing
 

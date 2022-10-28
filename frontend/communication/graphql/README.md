@@ -1,4 +1,4 @@
-# 🐻 Graphql  | Raining T
+# 🌼 Graphql  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [Communication](/frontend/communication) > [Graphql](/frontend/communication/graphql)
 

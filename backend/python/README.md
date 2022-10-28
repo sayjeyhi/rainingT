@@ -1,4 +1,4 @@
-# 😈 Python  | Raining T
+# 🍛 Python  | Raining T
 
 > [🏠](/) > [Backend](/backend) > [Python](/backend/python)
 
