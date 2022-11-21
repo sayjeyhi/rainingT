@@ -1,19 +1,12 @@
-# Micro-frontend
+# 🎸 Micro frontend  | Raining T
 
-To create an app already setted up with Micro frontend structure we can run
-```bash
-pnpx create-mf-app
-```
-then answer the questions and create the apps. It will configure the great
-webpack 5 plugin called `module federation` and we can use it to export
-some of the components from main app and use it on other apps.
+> [🏠](/) > [Frontend](/frontend) > [Micro frontend](/frontend/micro-frontend)
 
-### Notes:
-- Yes, we can use same react version for all of the apps with this plugin
-- Yes, it supports lazy loading
-- For safety we can create a component called `SafeComponent` and wrap our remote components inside of it.
-- If the app goes down we need to handle it.
+<table><thead><tr><th></th><th>Micro frontend</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/micro-frontend/sample-shpoing-app">Sample shpoing app</a></td></tr></tbody></table>
 
-### Libraries
-- single spa
-- bit.dev
+## Sample shpoing app
+
+> [🏠](/) > [Frontend](/frontend) > [Micro frontend](/frontend/micro-frontend) > [Sample shpoing app](/frontend/micro-frontend/sample-shpoing-app)
+
+<table><thead><tr><th></th><th>Sample shpoing app</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/micro-frontend/sample-shpoing-app/server">Server</a></td></tr></tbody></table>
+
