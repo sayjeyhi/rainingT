@@ -5,7 +5,7 @@ updates:
     schedule:
       interval: "weekly"
     assignees:
-      - "urbansportsclub/sre"
+      - "Github-TEAM-Name"
     reviewers:
-      - "urbansportsclub/sre"
+      - "Github-TEAM-Name"
     open-pull-requests-limit: 10
