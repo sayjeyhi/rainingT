@@ -1,8 +1,8 @@
-# 😳 Frontend  | Raining T
+# 🛄 Frontend  | Raining T
 
 > [🏠](/) > [Frontend](/frontend)
 
-<table><thead><tr><th></th><th>Frontend</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/build-tools">Build tools</a></td></tr><tr><td>2</td><td><a href="/frontend/communication">Communication</a></td></tr><tr><td>3</td><td><a href="/frontend/frameworks">Frameworks</a></td></tr><tr><td>4</td><td><a href="/frontend/state-management">State management</a></td></tr><tr><td>5</td><td><a href="/frontend/ui-libraries">Ui libraries</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Frontend</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/build-tools">Build tools</a></td></tr><tr><td>2</td><td><a href="/frontend/communication">Communication</a></td></tr><tr><td>3</td><td><a href="/frontend/frameworks">Frameworks</a></td></tr><tr><td>4</td><td><a href="/frontend/micro-frontend">Micro frontend</a></td></tr><tr><td>5</td><td><a href="/frontend/state-management">State management</a></td></tr><tr><td>6</td><td><a href="/frontend/ui-libraries">Ui libraries</a></td></tr></tbody></table>
 
 ## Build tools
 

@@ -1,4 +1,4 @@
-# 🎃 Frameworks  | Raining T
+# 🎽 Frameworks  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [Frameworks](/frontend/frameworks)
 
