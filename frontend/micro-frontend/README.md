@@ -1,4 +1,4 @@
-# 🎸 Micro frontend  | Raining T
+# 🐊 Micro frontend  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [Micro frontend](/frontend/micro-frontend)
 
