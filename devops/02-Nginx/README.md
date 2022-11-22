@@ -284,6 +284,70 @@ server {
 sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 ```
 
+
+### Static site with brotli
+```nginx
+server {
+  listen 80;
+
+  include /etc/nginx/mime.types;
+  default_type application/octet-stream;
+
+  location ~* .png$ {
+    default_type image/png;
+    root /usr/share/nginx/html;
+    access_log /var/log/nginx/avatars.access.log;
+    # expires 1M;
+    # add_header Cache-Control "public";
+    # add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    try_files $uri $uri/ /index.html;
+  }
+
+  # Full check the support for brotli
+  set $brotlify "";
+  if ($http_accept_encoding ~ br) {
+    set $brotlify "Y";
+  }
+  if ( $request_filename ~ \.(js)$ ) {
+    set $brotlify "${brotlify}ES";
+  }
+  if ( $brotlify = "YES" ) {
+    rewrite (.*) $1.br break;
+  }
+
+  # Serve correct files and headings
+  location ~ /*.js.br$ {
+    default_type application/javascript;
+    root /usr/share/nginx/html;
+    gzip off;
+    access_log off;
+    add_header Content-Encoding br;
+    add_header Vary "Accept-Encoding";
+    add_header Last-Modified $date_gmt;
+    add_header Cache-Control 'no-store, no-cache';
+    if_modified_since off;
+    expires off;
+    etag off;
+  }
+
+  location /embed.js {
+    root /usr/share/nginx/html;
+    add_header Last-Modified $date_gmt;
+    add_header Cache-Control 'no-store, no-cache';
+    if_modified_since off;
+    expires off;
+    etag off;
+  }
+
+  error_page 500 502 503 504 /50x.html;
+
+  location = /50x.html {
+    root /usr/share/nginx/html;
+  }
+}
+
+```
+
 ### Security snippet
 https://cipherlist.eu/
 
