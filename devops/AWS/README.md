@@ -1,4 +1,4 @@
-# 👅 AWS  | Raining T
+# 💡 AWS  | Raining T
 
 > [🏠](/) > [Devops](/devops) > [AWS](/devops/AWS)
 

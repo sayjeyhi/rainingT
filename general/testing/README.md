@@ -1,4 +1,4 @@
-# 😌 Testing  | Raining T
+# 🏨 Testing  | Raining T
 
 > [🏠](/) > [General](/general) > [Testing](/general/testing)
 
