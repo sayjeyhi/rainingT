@@ -1,4 +1,4 @@
-# 🎊 CICD  | Raining T
+# 🚎 CICD  | Raining T
 
 > [🏠](/) > [Devops](/devops) > [CICD](/devops/CI:CD)
 

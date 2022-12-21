@@ -1,4 +1,4 @@
-# 🚌 Golang  | Raining T
+# 🎶 Golang  | Raining T
 
 > [🏠](/) > [Backend](/backend) > [Golang](/backend/golang)
 
