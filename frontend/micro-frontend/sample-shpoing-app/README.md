@@ -1,4 +1,4 @@
-# 🚽 Sample shpoing app  | Raining T
+# 🌺 Sample shpoing app  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [Micro frontend](/frontend/micro-frontend) > [Sample shpoing app](/frontend/micro-frontend/sample-shpoing-app)
 

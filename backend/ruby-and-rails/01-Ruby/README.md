@@ -1,4 +1,4 @@
-# 🌐 Ruby  | Raining T
+# 👛 Ruby  | Raining T
 
 > [🏠](/) > [Backend](/backend) > [Ruby and rails](/backend/ruby-and-rails) > [Ruby](/backend/ruby-and-rails/01-Ruby)
 

@@ -1,4 +1,4 @@
-# 🐓  Raining T
+# 🔡  Raining T
 
 > A place to paste re-usable stuff!
 
@@ -8,7 +8,15 @@
 
 > [🏠](/) > [Backend](/backend)
 
-<table><thead><tr><th></th><th>Backend</th></tr></thead><tbody><tr><td>1</td><td><a href="/backend/python">Python</a></td></tr><tr><td>2</td><td><a href="/backend/ruby-and-rails">Ruby and rails</a></td></tr><tr><td>3</td><td><a href="/backend/rust">Rust</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Backend</th></tr></thead><tbody><tr><td>1</td><td><a href="/backend/golang">Golang</a></td></tr><tr><td>2</td><td><a href="/backend/python">Python</a></td></tr><tr><td>3</td><td><a href="/backend/ruby-and-rails">Ruby and rails</a></td></tr><tr><td>4</td><td><a href="/backend/rust">Rust</a></td></tr></tbody></table>
+
+## Golang
+
+> [🏠](/) > [Backend](/backend) > [Golang](/backend/golang)
+
+<table><thead><tr><th></th><th>Golang</th></tr></thead><tbody><tr><td>1</td><td><a href="/backend/golang/configs">Configs</a></td></tr></tbody></table>
+
+
 
 ## Python
 
@@ -47,11 +55,6 @@
 <table><thead><tr><th></th><th>Rust</th></tr></thead><tbody><tr><td>1</td><td><a href="/backend/rust/01-language">Language</a></td></tr><tr><td>2</td><td><a href="/backend/rust/02-sample-files">Sample files</a></td></tr></tbody></table>
 
 
-## GoLang
-
-> [🏠](/) > [Backend](/backend) > [GoLang](/backend/golang)
-
-<table><thead><tr><th></th><th>GoLang</th></tr></thead><tbody><tr><td>1</td><td><a href="/backend/golang/configs">Configs</a></td></tr></tbody></table>
 
 ## Devops
 
