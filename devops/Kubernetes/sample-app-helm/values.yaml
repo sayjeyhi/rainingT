@@ -1,0 +1,9 @@
+rbac: 
+  create: false
+server:
+  ## Prometheus server container name
+  name: server
+
+  service:
+    nodePort: 30001
+    type: NodePort

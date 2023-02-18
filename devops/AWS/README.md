@@ -4,3 +4,17 @@
 
 <table><thead><tr><th></th><th>AWS</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/AWS/01-EC2">EC</a></td></tr><tr><td>2</td><td><a href="/devops/AWS/02-RDS">RDS</a></td></tr><tr><td>3</td><td><a href="/devops/AWS/03-S3">S</a></td></tr><tr><td>4</td><td><a href="/devops/AWS/04-Lambda">Lambda</a></td></tr><tr><td>5</td><td><a href="/devops/AWS/05-Cloudfront">Cloudfront</a></td></tr><tr><td>6</td><td><a href="/devops/AWS/06-Glacier">Glacier</a></td></tr><tr><td>7</td><td><a href="/devops/AWS/07-SNS">SNS</a></td></tr><tr><td>8</td><td><a href="/devops/AWS/08-EBS">EBS</a></td></tr><tr><td>9</td><td><a href="/devops/AWS/09-VPC">VPC</a></td></tr><tr><td>10</td><td><a href="/devops/AWS/10-Kinesis">Kinesis</a></td></tr><tr><td>11</td><td><a href="/devops/AWS/11-IAM">IAM</a></td></tr><tr><td>12</td><td><a href="/devops/AWS/12-SQS">SQS</a></td></tr><tr><td>13</td><td><a href="/devops/AWS/13-ElasticBeanstalk">ElasticBeanstalk</a></td></tr><tr><td>14</td><td><a href="/devops/AWS/14-DynamoDB">DynamoDB</a></td></tr><tr><td>15</td><td><a href="/devops/AWS/15-ElastiCache">ElastiCache</a></td></tr><tr><td>16</td><td><a href="/devops/AWS/16-Redshift">Redshift</a></td></tr><tr><td>17</td><td><a href="/devops/AWS/17-Sagemaker">Sagemaker</a></td></tr><tr><td>18</td><td><a href="/devops/AWS/18-Lightsail">Lightsail</a></td></tr><tr><td>19</td><td><a href="/devops/AWS/19-EFS">EFS</a></td></tr><tr><td>20</td><td><a href="/devops/AWS/20-Cloudwatch">Cloudwatch</a></td></tr><tr><td>21</td><td><a href="/devops/AWS/21-Chime">Chime</a></td></tr><tr><td>22</td><td><a href="/devops/AWS/22-CloudDirectory">CloudDirectory</a></td></tr><tr><td>23</td><td><a href="/devops/AWS/23-Cognito">Cognito</a></td></tr><tr><td>24</td><td><a href="/devops/AWS/24-Inspector">Inspector</a></td></tr></tbody></table>
 
+### First step
+First it is better to have `AWS - CCP` this is more sales related, to know what services
+are available and what each service is doing.
+THIS EXAM IS NOT MANDATORY
+
+### Second step
+This step we have 3 different exams for three different type of people.
+
+- solutions architect - associate
+- developer - associate
+- SysOps administrator - associate
+
+CDK is IaaC
+

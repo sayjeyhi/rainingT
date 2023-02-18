@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link href="./styles.css" rel="stylesheet"/>
+  <title>Document</title>
+</head>
+<body>
+<div class="main" id="root">
+  <a href="https://v2.vuejs.org/v2/api/" target="_blank">
+    <header><h1>Vue.js - v2</h1></header>
+  </a>
+
+  <h2>Data binding/rendering:</h2>
+  <ol>
+    <!-- input value binding -->
+    <li><input type="text" v-model="message"/>{{message}}</li>
+    <!-- prop binding -->
+    <li>
+      <div :title="message">I have a dynamic title</div>
+      <div :title="message + ' Suffix'">I have a dynamic title + Suffix</div>
+    </li>
+    <!-- Render only one time -->
+    <li><span v-once="message">Message initial value was: {{message}}</span></li>
+    <li><span v-html="rawHtml"></span></li>
+    <li>{{ message === 'Hi' ? 'input value is not changed' : 'changed'}}</li>
+    <li>A computed reverse message: {{ reversedMessage }} {{now}}</li>
+  </ol>
+
+  <hr/>
+  <h2>Loops:</h2>
+  <ol>
+    <li :key="i" v-for="i in arrayItem">{{i}}</li>
+  </ol>
+  <br/>
+  <ol>
+    <li v-for="(j, index) in arrayItem">With index {{j}} - {{index}}</li>
+  </ol>
+  <br/>
+  <ol>
+    <li v-for="obj in { foo:'A', bar: 'B'}">On object key {{obj}}</li>
+  </ol>
+  <br/>
+  <ol>
+    <li v-for="(key, value) in { foo:'A', bar: 'B'}">On object {{key}}: {{value}}</li>
+  </ol>
+  <br/>
+  <ol>
+    <li :key="key" v-for="(key, value, index) in { foo:'A', bar: 'B'}">On object {{key}}: {{value}}: index {{index}}
+    </li>
+  </ol>
+  <br/>
+  <ol>
+    <template v-for="(n, index) in 10">
+      <span>{{ n }}</span> -
+      <span>{{ n + 1 }}</span>{{index !== 9 ? ' | ' : ''}}
+    </template>
+  </ol>
+
+  <hr/>
+  <h2>Condition:</h2>
+  <ul>
+    <li v-if="trueValue">
+      I am true
+    </li>
+    <li v-else>
+      I am not true
+    </li>
+    <li v-show="trueValue">
+      If I am true, I am rendered and have display block
+    </li>
+  </ul>
+
+  <hr/>
+  <h2>Events</h2>
+  <button @click="reverseMessage">Reverse Message</button>
+  <button @click="appendHi('Hi')">Append 'Hi'</button>
+  <button @click="appendHi('Hi', $event)">Pass event</button>
+
+  <hr/>
+  <h2>Forms</h2>
+  <label class="block">Input text: <input type="text" v-model.trim="forms.text"/></label>
+  <label class="block">Input number: <input type="text" v-model.number="forms.number"/></label>
+  <label class="block">Input checkbox: <input type="checkbox" v-model="forms.checkbox"/></label>
+  <div>
+    Multiple checkbox:
+    <input id="jack" type="checkbox" v-model="forms.multipleCheck" value="Jack">
+    <label for="jack">Jack</label>
+    <input id="john" type="checkbox" v-model="forms.multipleCheck" value="John">
+    <label for="john">John</label>
+    <input id="mike" type="checkbox" v-model="forms.multipleCheck" value="Mike">
+    <label for="mike">Mike</label>
+  </div>
+  <div>
+    Radio:
+    <input id="one" type="radio" v-model="forms.radio" value="One">
+    <label for="one">One</label>
+    <input id="two" type="radio" v-model="forms.radio" value="Two">
+    <label for="two">Two</label>
+  </div>
+  <div>
+    Select:
+    <select v-model="forms.select">
+      <option disabled value="">Please select one</option>
+      <option>A</option>
+      <option>B</option>
+      <option>C</option>
+    </select>
+  </div>
+
+  <pre>{{JSON.stringify(forms, null, '  ')}}</pre>
+
+  <hr/>
+
+
+  <h2>Components</h2>
+  <child-component name="Hi"/>
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script>
+  const ChildComponent = Vue.component('child-component', {
+    props: ['name'],
+    data: () => ({
+      showTables: false
+    }),
+    methods: {
+      toggleTables() {
+        this.showTables = !this.showTables;
+      }
+    },
+    template: `
+      <div>
+      <div>I am a ChildComponent with a prop: <strong>{{ name }}</strong></div>
+      <button @click="this.toggleTables">Show tables</button>
+      <template v-if="this.showTables">
+        <br/>
+        Notes:
+        <br/>
+        - 'template' tag is a wrapper around anything.<br/>
+        - ':' is a prefix for props which we want to be computed
+        <br/>
+        <br/>
+        <strong>- Removables:</strong>
+        <table style="width: 100%;">
+          <thead>
+          <tr>
+            <th>Delete</th>
+            <th>replace</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>v-bind</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>v-on</td>
+            <td>@</td>
+          </tr>
+          </tbody>
+        </table>
+        <strong>- Event modifiers:</strong>
+        <pre>&lt;input v-on:submit.prevent=&quot;submit&quot;&gt;</pre>
+        <table style="width: 100%;">
+          <thead>
+          <tr>
+            <th>Name</th>
+            <th>Job</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>.stop</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.prevent</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.capture</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.self</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.once</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.passive</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>v</td>
+            <td></td>
+          </tr>
+          </tbody>
+        </table>
+
+        - KeyUp modifiers:
+        <pre>
+&lt;input v-on:keyup.enter=&quot;submit&quot;&gt;
+&lt;input v-on:keyup.13=&quot;submit&quot;&gt;
+        </pre>
+        <table style="width: 100%;">
+          <thead>
+          <tr>
+            <th>Name</th>
+            <th>Job</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>.enter</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.tab</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.delete(both “Delete” & “Backspace”)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.esc</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.space</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.up</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.down</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.left</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>.right</td>
+            <td></td>
+          </tr>
+          </tbody>
+        </table>
+
+      </template>
+      </div>
+    `
+  })
+
+  const app = new Vue({
+    el: '#root',
+    component: {
+      ChildComponent
+    },
+    data: {
+      message: 'Hi',
+      rawHtml: '<strong>I was HTML 😉</strong>',
+      trueValue: false,
+      arrayItem: ['Joe', 'Richard', 'Martin'],
+      forms: {
+        text: '',
+        number: 0,
+        checkbox: false,
+        multipleCheck: [],
+        radio: '',
+        select: ''
+      }
+    },
+    computed: {
+      reversedMessage: function () {
+        return this.message.split('').reverse().join('')
+      },
+      now: function () {
+        return Date.now()
+      },
+      /**
+       * We can have getter and setter, so if we assign a value to this computed property it will be called
+       * and if we read from it, getter will be called
+       */
+      fullName: {
+        // getter
+        get: function () {
+          return this.firstName + ' ' + this.lastName
+        },
+        // setter
+        set: function (newValue) {
+          const names = newValue.split(' ')
+          this.firstName = names[0]
+          this.lastName = names[names.length - 1]
+        }
+      }
+    },
+    methods: {
+      reverseMessage() {
+        this.message = this.message.split('').reverse().join('')
+      },
+      appendHi(value, event) {
+        console.log(event)
+        this.message = this.message + value
+      }
+    },
+    watch: {
+      message: function (newVal, oldVal) {
+        console.log("Message changed", {newVal, oldVal});
+      },
+    },
+    // Lifecycle methods
+    beforeCreate() {
+      console.log('Before app create: ' + this.message)
+    },
+    created() {
+      console.log('App created: ' + this.message)
+    },
+    beforeMount() {
+      console.log('App beforeMount: ' + this.message)
+    },
+    mounted() {
+      console.log('App mounted: ' + this.message)
+    },
+    beforeUpdate() {
+      console.log('App beforeUpdate: ' + this.message)
+    },
+    updated() {
+      console.log('App updated: ' + this.message)
+    },
+    beforeDestroy() {
+      console.log('App updated: ' + this.message)
+    },
+    destroyed() {
+      console.log('App destroyed: ' + this.message)
+    }
+  });
+
+  app.arrayItem.push('Add me as well, I am Jafar')
+</script>
+
+</body>
+</html>
