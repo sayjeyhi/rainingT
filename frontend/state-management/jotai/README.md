@@ -1,4 +1,4 @@
-# ♥ Jotai  | Raining T
+# ⛽ Jotai  | Raining T
 
 > [🏠](/) > [Frontend](/frontend) > [State management](/frontend/state-management) > [Jotai](/frontend/state-management/jotai)
 

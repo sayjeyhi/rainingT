@@ -1,13 +1,6 @@
-# Liveness Probes
+# 😊 Sample app  | Raining T
 
-## Goals: 
-1) Understand liveness probes in Kubernetes
+> [🏠](/) > [Devops](/devops) > [Kubernetes](/devops/Kubernetes) > [Sample app](/devops/Kubernetes/sample-app)
 
-## Goal 1
-Liveness Probes are often used in deployments with many containers. They help with startup and container running states (https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes )
+<table><thead><tr><th></th><th>Sample app</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/Kubernetes/sample-app/R">R</a></td></tr><tr><td>2</td><td><a href="/devops/Kubernetes/sample-app/README">README</a></td></tr></tbody></table>
 
-To run our example:
-`kubectl apply -f wishlist-deployment-liveness.yaml`
-
-To see if our probes are running:
-`kubectl describe <pod_name>`

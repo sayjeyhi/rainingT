@@ -1,8 +1,22 @@
-# 📮  Raining T
+# 👍  Raining T
 
 > A place to paste re-usable stuff!
 
-<table><thead><tr><th></th><th>Content</th></tr></thead><tbody><tr><td>1</td><td><a href="/backend">Backend</a></td></tr><tr><td>2</td><td><a href="/devops">Devops</a></td></tr><tr><td>3</td><td><a href="/frontend">Frontend</a></td></tr><tr><td>4</td><td><a href="/general">General</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Content</th></tr></thead><tbody><tr><td>1</td><td><a href="/ai">Ai</a></td></tr><tr><td>2</td><td><a href="/architect">Architect</a></td></tr><tr><td>3</td><td><a href="/backend">Backend</a></td></tr><tr><td>4</td><td><a href="/devops">Devops</a></td></tr><tr><td>5</td><td><a href="/frontend">Frontend</a></td></tr><tr><td>6</td><td><a href="/general">General</a></td></tr></tbody></table>
+
+## Architect
+
+> [🏠](/) > [Architect](/architect)
+
+<table><thead><tr><th></th><th>Architect</th></tr></thead><tbody><tr><td>1</td><td><a href="/architect/book-notes">Book notes</a></td></tr></tbody></table>
+
+## Book notes
+
+> [🏠](/) > [Architect](/architect) > [Book notes](/architect/book-notes)
+
+<table><thead><tr><th></th><th>Book notes</th></tr></thead><tbody><tr><td>1</td><td><a href="/architect/book-notes/Architect-elevator">Architect elevator</a></td></tr><tr><td>2</td><td><a href="/architect/book-notes/The-Phoenix-project">The Phoenix project</a></td></tr></tbody></table>
+
+
 
 ## Backend
 
@@ -60,7 +74,7 @@
 
 > [🏠](/) > [Devops](/devops)
 
-<table><thead><tr><th></th><th>Devops</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/01-Terraform">Terraform</a></td></tr><tr><td>2</td><td><a href="/devops/02-Nginx">Nginx</a></td></tr><tr><td>3</td><td><a href="/devops/03-Apache">Apache</a></td></tr><tr><td>4</td><td><a href="/devops/AWS">AWS</a></td></tr><tr><td>5</td><td><a href="/devops/Azure">Azure</a></td></tr><tr><td>6</td><td><a href="/devops/CI:CD">CICD</a></td></tr><tr><td>7</td><td><a href="/devops/GCP">GCP</a></td></tr></tbody></table>
+<table><thead><tr><th></th><th>Devops</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/01-Terraform">Terraform</a></td></tr><tr><td>2</td><td><a href="/devops/02-Nginx">Nginx</a></td></tr><tr><td>3</td><td><a href="/devops/03-Apache">Apache</a></td></tr><tr><td>4</td><td><a href="/devops/AWS">AWS</a></td></tr><tr><td>5</td><td><a href="/devops/Azure">Azure</a></td></tr><tr><td>6</td><td><a href="/devops/CI:CD">CICD</a></td></tr><tr><td>7</td><td><a href="/devops/GCP">GCP</a></td></tr><tr><td>8</td><td><a href="/devops/Helm">Helm</a></td></tr><tr><td>9</td><td><a href="/devops/Kubernetes">Kubernetes</a></td></tr></tbody></table>
 
 ## AWS
 
@@ -83,6 +97,20 @@
 > [🏠](/) > [Devops](/devops) > [GCP](/devops/GCP)
 
 <table><thead><tr><th></th><th>GCP</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/GCP/01-Compute Engine">Compute Engine</a></td></tr><tr><td>2</td><td><a href="/devops/GCP/02-App Engine">App Engine</a></td></tr><tr><td>3</td><td><a href="/devops/GCP/03-Anthos">Anthos</a></td></tr><tr><td>4</td><td><a href="/devops/GCP/04-Networking-VPC">Networking VPC</a></td></tr><tr><td>5</td><td><a href="/devops/GCP/05-Database service">Database service</a></td></tr><tr><td>6</td><td><a href="/devops/GCP/06-Big Table">Big Table</a></td></tr><tr><td>7</td><td><a href="/devops/GCP/07-Kubernetes engine">Kubernetes engine</a></td></tr><tr><td>8</td><td><a href="/devops/GCP/09-GCP Teraform">GCP Teraform</a></td></tr><tr><td>9</td><td><a href="/devops/GCP/09-Security Services">Security Services</a></td></tr><tr><td>10</td><td><a href="/devops/GCP/10-IAM">IAM</a></td></tr><tr><td>11</td><td><a href="/devops/GCP/11-AI Managment">AI Managment</a></td></tr><tr><td>12</td><td><a href="/devops/GCP/12-Billing service">Billing service</a></td></tr></tbody></table>
+
+
+
+## Kubernetes
+
+> [🏠](/) > [Devops](/devops) > [Kubernetes](/devops/Kubernetes)
+
+<table><thead><tr><th></th><th>Kubernetes</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/Kubernetes/sample-app">Sample app</a></td></tr></tbody></table>
+
+## Sample app
+
+> [🏠](/) > [Devops](/devops) > [Kubernetes](/devops/Kubernetes) > [Sample app](/devops/Kubernetes/sample-app)
+
+<table><thead><tr><th></th><th>Sample app</th></tr></thead><tbody><tr><td>1</td><td><a href="/devops/Kubernetes/sample-app/R">R</a></td></tr><tr><td>2</td><td><a href="/devops/Kubernetes/sample-app/README">README</a></td></tr></tbody></table>
 
 
 
@@ -119,6 +147,12 @@
 > [🏠](/) > [Frontend](/frontend) > [Frameworks](/frontend/frameworks)
 
 <table><thead><tr><th></th><th>Frameworks</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/frameworks/01-react-18">React</a></td></tr><tr><td>2</td><td><a href="/frontend/frameworks/02-preact">Preact</a></td></tr><tr><td>3</td><td><a href="/frontend/frameworks/03-vue">Vue</a></td></tr><tr><td>4</td><td><a href="/frontend/frameworks/04-nuxt">Nuxt</a></td></tr><tr><td>5</td><td><a href="/frontend/frameworks/05-next">Next</a></td></tr><tr><td>6</td><td><a href="/frontend/frameworks/06-astro">Astro</a></td></tr><tr><td>7</td><td><a href="/frontend/frameworks/07-remix">Remix</a></td></tr><tr><td>8</td><td><a href="/frontend/frameworks/08-solid">Solid</a></td></tr></tbody></table>
+
+## Vue
+
+> [🏠](/) > [Frontend](/frontend) > [Frameworks](/frontend/frameworks) > [Vue](/frontend/frameworks/03-vue)
+
+<table><thead><tr><th></th><th>Vue</th></tr></thead><tbody><tr><td>1</td><td><a href="/frontend/frameworks/03-vue/01-vue2">Vue</a></td></tr></tbody></table>
 
 
 
